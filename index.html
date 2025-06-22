@@ -1,7 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <body>
+<head>
+<style>
+body {
+	padding: 25px;
+	background-color: white;
+	color: black;
+	font-size: 25px;
+}
+
+.dark-mode {
+	background-color: black;
+	color: white;
+}
+</style>
+</head>
+<body>
     <h1> Who let you in here? </h1>
     <p> get out >:( </p>
-  </body>
+
+<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+</body>
 </html>
