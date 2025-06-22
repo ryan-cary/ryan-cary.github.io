@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {
-	padding: 25px;
-	background-color: white;
-	color: black;
-	font-size: 25px;
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
 }
 
 .dark-mode {
-	background-color: black;
-	color: white;
+  background-color: black;
+  color: white;
 }
 </style>
 </head>
 <body>
-    <h1> Who let you in here? </h1>
-    <p> get out >:( </p>
+
+<h2>Toggle Dark/Light Mode</h2>
+<p>Click the button to toggle between dark and light mode for this page.</p>
 
 <button onclick="myFunction()">Toggle dark mode</button>
 
@@ -27,5 +29,6 @@ function myFunction() {
    element.classList.toggle("dark-mode");
 }
 </script>
+
 </body>
 </html>
