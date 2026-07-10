@@ -9,3 +9,14 @@ body {
   background-color: black;
   color: white;
 }
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 24rem;
+    height: 100%;
+    text-align: center;
+    background-color: #753456;
+    color: white;
+}
