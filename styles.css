@@ -15,22 +15,33 @@ table, th, td {
   color: black;
 }
 
+.content-container {
+    margin-left: 16rem;
+    padding: 1rem;
+}
+
+/* ------- SIDEBAR ------- */
+
 .sidebar {
     position: fixed;
     top: 0;
     left: 0;
-    width: 24rem;
+    width: 16rem;
     height: 100%;
     text-align: center;
     background-color: teal;
     color: white;
 }
 
-.content-container {
-    margin-left: 24rem;
-    padding: 1rem;
+#logo-container {
+  margin: 5px;
 }
 
+.social-logo {
+  margin: 5px;
+  height: 35px;
+  width: auto;
+}
 
 /* ------- CV ------ */
 
