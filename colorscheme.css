@@ -1,0 +1,27 @@
+.dark-mode {
+  background-color: white;
+  color: black;
+}
+
+.theme-one {
+    background-color: #071013;
+    color: #f3c969;
+    color: #41ead4;
+    color: #ef798a;
+}
+
+.theme-two {
+    background-color: #292f36;
+    color: #4ecdc4;
+    color: #f7fff7;
+    color: #ff6b6b;
+}
+
+.theme-three {
+    background-color: #00272b;
+    background-color: #001214;
+    color: #e0ff4f;
+    color: #ff6663;
+    color: #ff2ecc;
+    color: #a51080
+}
