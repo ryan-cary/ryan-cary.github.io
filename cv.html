@@ -11,10 +11,10 @@
     <div class="sidebar">
         <h1>Ryan Cary</h1>
         <div>
-            <ul id="sidebar-links">
-                <a href="./cv.html" rel="noreferrer">CV</a>
-                <a href="./index.html" rel="noreferrer">Back to Landing</a>
-            </ul>
+            <a href="./index.html" rel="noreferrer">Back to Landing</a>
+            <br>
+            <a href="./cv.html" rel="noreferrer">CV</a>
+            <br>
             <div id="logo-container">
                 <a href="https://scionsword.itch.io" rel="noreferrer" target="_blank"><img class="social-logo" height="35" alt="itch.io_link" src="./imgs/itch-io-icon.svg"></a>
                 <a href="https://www.linkedin.com/in/ryan-cary-623120285" rel="noreferrer" target="_blank"><img class="social-logo" height="35" alt="linkedin_link" src="./imgs/LinkedIn_icon.svg"></a>
@@ -24,11 +24,13 @@
     </div>
 
     <div class="content-container">
-        <h2>Curriculum Vitae</h2>
+        <h1>Curriculum Vitae</h1>
+        <!--LANGUAGES-->
         <div id="languages">
-            <h3>Languages</h3>
-            <h4>Human</h4>
-            <table>
+            <h2>Languages</h2>
+            <details>
+                <summary>Human</summary>
+                <table>
                 <tr>
                     <th>Language</th>
                     <th>Proficiency</th>
@@ -41,9 +43,16 @@
                     <td>French</td>
                     <td>Beginner (Rusty)</td>
                 </tr>
+                <tr>
+                    <td>Russian</td>
+                    <td>Beginner (Rusty)</td>
+                </tr>
             </table>
-            <h4>Computer</h4>
-            <ul>
+            </details>
+            
+            <details>
+                <summary>Computer</summary>
+                <ul>
                 <li>Python</li>
                 <li>C</li>
                 <li>C++</li>
@@ -54,25 +63,53 @@
                 <li>JavaScript</li>
                 <li>Unity</li>
             </ul>
+            </details>
         </div>
         <hr>
+        <!--WORK EXPERIENCE-->
         <div id="work_experience"> 
-            experience here!
+            <h2>Professional Experience</h2>
+            <details>
+                <summary>IT Support & Administration</summary>
+                <p>GPS CANADA TRACK, ISLAND SONS INC., ZUCORAHOME</p>
+            </details>
+            <details>
+                <summary>Cybersecurity</summary>
+                <p>CHURCH & DWIGHT CO., INC.</p>
+            </details>
+            <details>
+                <summary>Miscellaeneous</summary>
+                <p>ARVA MILLHOUSE BAKERY, AV INDEPENDENT CONTRACTING</p>
+            </details>
         </div>
         <hr>
+        <!--EDUCATION + CERTIFICATIONS-->
         <div id="edu+certs">
-            <h2>Education + Certifications</h2>
-            <p>
-                <h3>BSc. in Computer Science</h3>
-                <h4>Western University, 2023</h4>
-                Emphasis on software engineering, data structures, and algorithms. [collapsible: notable courses/electives?]
-            
-                <h3>Certificate in Video Game Development</h3>
-                <h4>CircuitStream, via University of British Columbia, ongoing</h4>
-                Bootcamp program focused on 2D & 3D game development in Unity [collapsible: subjects covered]
-            </p>
+            <h2>Education</h2>
+            <details>
+                <summary><b>Academic</b></summary>
+                <p>B.Sc. in Computer Science | Western University, 2023<br>Emphasis on software engineering, data structures, and algorithms. [collapsible: notable courses/electives?]</p>
+            </details>
+            <details>
+                <summary><b>Certifications</b></summary>
+                <p>Certificate in Game Development | CircuitStream, ongoing<br>Bootcamp program focused on 2D & 3D game development in Unity [collapsible: subjects covered]</br></p>
+            </details>
+            <details>
+                <summary><b>Workshops Attended</b></summary>
+                <p>Research Computing Summer School | Digital Research Alliance of Canada via SFU Research Computing Group, 2026<br>High-performance computing, Code parallelization, R optimization, Python polars, Python parallel scripting</p>
+            </details>
         </div>
         <hr>
+        <!--VOLUNTEERING-->
+        <div id="volunteer-exp">
+            <h2>Volunteering</h2>
+            <details>
+                <summary>Seasonal</summary>
+                <p>Invasive Species Removal | ISCMV, since 2025<br>
+                    Native Species Planting | ISCMV, since 2026<br>
+                    Production Team | Vancouver Fringe Festival, 2026</p>
+            </details>
+        </div>
     </div>
 
 </body>

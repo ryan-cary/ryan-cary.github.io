@@ -43,6 +43,11 @@ table, th, td {
   margin: 5px;
 }
 
+#sidebar-links {
+  list-style:none;
+  text-align:center;
+}
+
 .social-logo {
   margin: 5px;
   height: 35px;
